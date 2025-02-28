@@ -146,21 +146,9 @@ npm start
 
 ### 1. Create a Product
 
-```sh
-curl -X POST http://localhost:3001/ \
-  -H "Content-Type: application/json" \
-  -d '{"name":"Awesome Product","price":49.99,"quantity":100}'
-```
-
 The Product Service stores the product in MongoDB and caches essential details in Redis.
 
 ### 2. Place an Order
-
-```sh
-curl -X POST http://localhost:3002/buy \
-  -H "Content-Type: application/json" \
-  -d '{"productIds":["product_id_1","product_id_2"]}'
-```
 
 The Order Service:
 1. Retrieves product details from Redis (if available)
