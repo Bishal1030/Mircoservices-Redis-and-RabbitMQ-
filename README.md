@@ -6,13 +6,13 @@ A robust microservices architecture demonstrating efficient service communicatio
 
 This project showcases a simple but powerful microservices implementation with two core services:
 
-### Product Service (Port 3001)
+### Product Service
 - Manages product data storage and retrieval
 - Stores complete product information in MongoDB
 - Caches essential product details in Redis for fast access
 - Exposes API endpoints for product management
 
-### Order Service (Port 3002)
+### Order Service
 - Processes customer orders efficiently
 - Retrieves product information from Redis cache when available
 - Falls back to MongoDB when cache misses occur
