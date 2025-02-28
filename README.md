@@ -49,7 +49,7 @@ npm install
 
 For Order Service:
 ```sh
-cd ../order-service
+cd order-service
 npm install
 ```
 
