@@ -23,6 +23,12 @@ This project showcases a simple but powerful microservices implementation with t
 - **RabbitMQ** enables asynchronous communication between services
 - **MongoDB** provides persistent storage for product and order data
 
+
+## System Design
+
+![Microservices_System Design](https://github.com/user-attachments/assets/aa11373d-de0e-4310-92d1-2c40b7f137bc)
+
+
 ## 🔧 Prerequisites
 
 - **Node.js** and **npm**
